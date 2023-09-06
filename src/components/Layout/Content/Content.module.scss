@@ -1,0 +1,41 @@
+.wrapper {
+    background-color: rgb(240, 240, 240);
+    height: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.brand {
+    color: var(--primary);
+    padding-left: 25px;
+}
+
+.create-list {
+    padding-right: 25px;
+}
+
+.list-input {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+    padding-left: 5px;
+    color: var(--text-color);
+}
+
+.create-btn {
+    height: 30px;
+    width: 60px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

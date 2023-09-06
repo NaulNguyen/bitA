@@ -1,0 +1,25 @@
+.wrapper {
+    width: 300px;
+    height: 700px;
+    border-right: 1px solid rgb(211, 211, 211);
+}
+
+.item {
+    border-bottom: 1px solid rgb(211, 211, 211);
+    border-top: 1px solid rgb(211, 211, 211);
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item > a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.8rem;
+}
+
+.icon {
+    color: rgb(211, 211, 211);
+}
